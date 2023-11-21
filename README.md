@@ -36,20 +36,23 @@ Todo List API Services using Express JS
 
 ## API Documentation
 
-Todos
+## Todos
 
-Create Todos
+## Create Todos
 
-Request
+## Request
+
 POST /api/v1/todos
 
-Body
+## Body
+
 {
 "title": "beli baju",
 "description": "xl, xxl, xxxl"
 }
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
@@ -67,19 +70,21 @@ Response
 }
 }
 
-Update Todo
+## Update Todo
 
 Request
 PATCH /api/v1/todos/65524b9131cb49a167994a5c
 
-Body
+## Body
+
 {
 "title": "Belanja di Indomaret",
 "description": "Beli Indomie",
 "completed": true
 }
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
@@ -97,51 +102,51 @@ Response
 }
 }
 
-Delete Todo
+## Delete Todo
 
-Request
+## Request
+
 DELETE /api/v1/todos/65524b9131cb49a167994a5c
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
 "message": "Todo Deleted successfully"
 }
 
-Delete All Todo
+## Delete All Todo
 
-Request
+## Request
+
 DELETE /api/v1/todos
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
 "message": "Todo Deleted all successfully"
 }
 
-p
-p
-p
-p
-p
-p
+## Task
 
-Task
+## reate Task
 
-Create Task
+## Request
 
-Request
 POST /api/v1/tasks
 
-Body
+## Body
+
 {
 "description": "Description 1",
 "status": "active"
 }
 
-Response
+## Response
+
 {
 "code": 201,
 "success": true,
@@ -158,12 +163,14 @@ Response
 }
 }
 
-Get All Tasks with filters
+## Get All Tasks with filters
 
-Request
+## Request
+
 GET /api/v1/tasks?status=active
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
@@ -185,12 +192,14 @@ Response
 }
 }
 
-Get Task By Id
+## Get Task By Id
 
-Request
+## Request
+
 GET /api/v1/tasks/5f9b0b7b7f0b9b0017f0b9b0
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
@@ -207,18 +216,21 @@ Response
 }
 }
 
-Update Task
+## Update Task
 
-Request
+## Request
+
 PUT /api/v1/tasks/5f9b0b7b7f0b9b0017f0b9b0
 
-Body
+## Body
+
 {
 "description": "Description 1",
 "status": "active"
 }
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
@@ -235,12 +247,14 @@ Response
 }
 }
 
-Delete Task
+## Delete Task
 
-Request
+## Request
+
 DELETE /api/v1/tasks/5f9b0b7b7f0b9b0017f0b9b0
 
-Response
+## Response
+
 {
 "code": 200,
 "success": true,
